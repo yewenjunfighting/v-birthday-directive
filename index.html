@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="./public/index.css">
 </head>
 <body>
-    <div id="app">
-        <div id="ld"></div>
-        <div v-birthday="comeDay">{{comeDay}}</div>
+    <div id="app" v-cloak>
+        <span v-birthday="comeDay">出生日期：{{comeDay}}</span>
+        <span id="ld" v-birthday="liveDay"></span>
     </div>
     <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
     <script src="birthday.js"></script>

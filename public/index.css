@@ -3,19 +3,10 @@
 }
 
 #app{
-    width: 150px;
-    height: 150px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #aeacac;
+    flex-direction: column;
 }
 
-#app div{
-    width: 100%;
-    height: 50px;
-}
-
-#ld {
-    border:1px solid #aeacac;
+span{
+    margin-top: 10px;
 }
